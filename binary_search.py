@@ -13,7 +13,8 @@ def searcharray(array, input):
             left = middle + 1
         elif array[middle] > input:
             right = middle - 1
-        else:
-            return -1
+  
+        return -1
 
 found_index = searcharray(array_in_question, 1)
+print (f"Value found at index: {found_index}")
